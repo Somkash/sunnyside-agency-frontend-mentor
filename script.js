@@ -22,18 +22,4 @@ function output(a){
     console.log(a)
 }
 
-window.addEventListener("resize", function(e){
-    console.log(window.innerWidth);
- 
-     let a= window.innerWidth + " x " + window.innerHeight;
- 
-     v.innerText =a;
- })
- window.addEventListener("load", function(e){
-    console.log(window.innerWidth);
- 
-     let a= window.innerWidth + " x " + window.innerHeight;
- 
-     v.innerText =a;
- })
 
