@@ -1,0 +1,137 @@
+/* Large Mobile Design */
+@media only screen and (min-width: 426px){
+
+    section.hero{
+        background-image: url('images/desktop/image-header.jpg');
+    } 
+
+    .logo img{
+        width:20vw;
+    }
+    
+    .hero .topbar{
+        margin-bottom:2em;
+    }
+    .hero h1{
+        font-size:2em;
+
+    }
+    .blocks{
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blocks .content{
+        align-items:flex-start;
+        padding: 1em;
+    }
+    .transform{
+        width:50%;
+        order:1;
+        padding:1.5em;
+        
+    }
+    .blocks .image-egg{
+        order:2;
+        width:50%;
+        height:auto;
+    }
+    
+    .blocks .content p,
+    .blocks .content a{
+        font-size:2.5vw;
+        text-align:left;
+    }
+    .blocks .content h2{
+        font-size:4vw;
+        text-align:left;
+    }
+
+    .stand-out{
+        order:4;
+        width:50%;
+    }
+
+    .image-glass{
+        order:3;
+        width:50%;
+        height:auto;
+        /* height: 300px; */
+        content: url('/images/desktop/image-stand-out.jpg');
+    
+    }
+    .graphic-design{
+        order: 5;
+        width:50%;
+        height:auto;
+        background-image: url('/images/desktop/image-graphic-design.jpg');
+        /* height:500px; */
+        background-size: 150% 100%;
+        background-position: center;
+    }
+    
+    .block-item h3{
+        text-align:center;
+        margin-top:300px;
+    }
+    
+    
+    .photography{
+        order:6;
+        width:50%;
+        /* height:auto; */
+        background-image: url('/images/desktop/image-photography.jpg');
+        
+    }
+    
+    .blocks .content  {
+        text-align:left;
+    }
+    .blocks .content p{
+        text-align:left;
+        padding:0;
+    }
+   /* .blocks .content h2,
+   .blocks .content a {
+       margin-left:1em;
+   } */
+
+   .blocks .transform a:after,
+   .blocks .stand-out a:after{
+        margin:0;
+        margin-top:-5px;
+        margin-left: -4px;
+    }
+
+    .more-images .flex-container{
+        flex-wrap:nowrap;
+    }
+    
+    .more-images .flex-container img{
+        width:25%;
+    } 
+
+        .photography h3,
+    .graphic-design h3{
+        font-size: 4vw;
+    }
+
+    .photography p,
+    .graphic-design p{
+        font-size: 2.5vw;
+        padding:1vw;
+        /* color:red */
+    }
+
+    .footer .footer-head{
+        font-size:5vw;
+    }
+    .footer .footer-menu a{
+        font-size:4vw;
+        
+    
+    }
+
+
+}/*  end of media query */
+
